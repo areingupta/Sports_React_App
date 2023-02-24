@@ -1,0 +1,69 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.booking-final {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.box {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  width: 100%;
+
+}
+
+.box .btn {
+  background-color: antiquewhite;
+  color: #000000;
+  font-weight: bold;
+}
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  color: antiquewhite;
+  display: block;
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.elem-group option {
+  color: black;
+  background-color: antiquewhite;
+}
+
+input, select, textarea {
+  border-radius: 15px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  width: 100%;
+  padding: 10px;
+  color: black;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+

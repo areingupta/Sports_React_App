@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-nav {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  text-align: center;
+  justify-content: center;
+}
+
+.col-1-sports button[type="submit"] {
+  margin: 5px;
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-sports-filter {
+  background: url("sportynn_bg_home.jpg");
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  color: antiquewhite;
+}
+
+.small-container .col-1-profile p {
+    color: black;
+}
+
+/* SPORTS SECTION */
+
+.profile-display {
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.profile-display h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.profile-display .col-1-profile p {
+  margin-bottom: 25px;
+}
+
+.profile-display .col-1-profile {
+  text-align: center;
+}
+
+
+
+.small-container-sports h2 {
+  padding: 25px 0;
+  text-align: center;
+  color: black;
+}
+
+
+.row-sports-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* FOOTER SECTION */
+
+.footer-reg {
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 60px 0 20px;
+}
+
+.row-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-reg h3 {
+  margin-bottom: 10px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+  min-width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-col-1 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.footer-col-2 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.footer-col-3 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.footer-col-3 .btn {
+  background-color: rgba(250, 235, 215, 0.832);
+  color: black;
+  font-weight: 600;
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+.social-media a {
+  color: antiquewhite;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+@media (max-width: 800px) {
+  .form-container {
+    height: 340px;
+  }
+
+  .footer-reg {
+    padding: 200px 0 20px;
+  }
+
+  .form-container form {
+    top: 110px;
+  }
+
+  .account-page .col-2 img {
+    height: 300px;
+    width: 200px;
+  }
+}
